@@ -32,7 +32,7 @@ function SelectTheme({ onNext }) {
 
   return (
     <div className="select-theme">
-      <h2>Apply a theme</h2>
+      <h1>Apply a theme</h1>
       <div className="theme-container">
         {themes.map((theme) => (
           <div

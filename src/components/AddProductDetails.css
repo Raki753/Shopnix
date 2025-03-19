@@ -1,0 +1,90 @@
+/* src/components/AddProductDetails.css */
+
+.add-product-details {
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+    border: 1px solid #ccc;
+  }
+  
+  h2, h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group, .checkbox-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .back-btn, .next-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .back-btn {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .back-btn:hover {
+    background-color: #bbb;
+  }
+  
+  .next-btn {
+    background-color: blue;
+    color: white;
+  }
+  
+  .next-btn:hover {
+    background-color: #003580;
+  }
+  
+  .add-product-details::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .add-product-details::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+  
+  .add-product-details::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
